@@ -1,0 +1,10 @@
+--- libevent-2.1.12-stable/build-aux/config.sub.orig	2020-08-25 23:00:32.165514380 +0200
++++ libevent-2.1.12-stable/build-aux/config.sub	2020-08-25 23:00:08.294142957 +0200
+@@ -1339,6 +1339,7 @@
+ 	# Each alternative MUST end in a * to match a version number.
+ 	# sysv* is not here because it comes later, after sysvr4.
+ 	gnu* | bsd* | mach* | minix* | genix* | ultrix* | irix* \
++             | serenity* \
+ 	     | *vms* | esix* | aix* | cnk* | sunos | sunos[34]*\
+ 	     | hpux* | unos* | osf* | luna* | dgux* | auroraux* | solaris* \
+ 	     | sym* | kopensolaris* | plan9* \

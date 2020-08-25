@@ -1,0 +1,10 @@
+--- tmux-3.1b/etc/config.sub.orig	2020-08-25 22:36:29.951022589 +0200
++++ tmux-3.1b/etc/config.sub	2020-08-25 22:33:46.448956069 +0200
+@@ -1392,6 +1392,7 @@
+ 	# Each alternative MUST END IN A *, to match a version number.
+ 	# -sysv* is not here because it comes later, after sysvr4.
+ 	-gnu* | -bsd* | -mach* | -minix* | -genix* | -ultrix* | -irix* \
++              | -serenity*  \
+ 	      | -*vms* | -sco* | -esix* | -isc* | -aix* | -cnk* | -sunos | -sunos[34]*\
+ 	      | -hpux* | -unos* | -osf* | -luna* | -dgux* | -auroraux* | -solaris* \
+ 	      | -sym* | -kopensolaris* | -plan9* \
